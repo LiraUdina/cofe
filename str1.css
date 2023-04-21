@@ -1,0 +1,28 @@
+
+.text {
+    display: flex;
+   color: brown;
+    position: relative;
+    height: 40px;
+    margin-top: 10%;
+    justify-content: center; 
+    align-items: center; 
+}
+body {
+    background-color:rgb(255, 255, 255);
+    background-size: cover;  
+}
+img {display: block; 
+    margin: auto; 
+    height: 50%;}
+.knopka { 
+    display: flex;
+    background-color:green;
+    border-radius: 10px;
+    position: relative;
+    height: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 1%;
+    color: rgb(253, 252, 251);
+}
