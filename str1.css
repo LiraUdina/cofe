@@ -1,7 +1,8 @@
-
+:root {--color1: brown; 
+       --color2: green;}
 .text {
     display: flex;
-   color: brown;
+   color: var(--color1);
     position: relative;
     height: 40px;
     margin-top: 10%;
@@ -15,10 +16,10 @@ body {
 }
 img {display: block; 
     margin: auto; 
-    height: 50%;}
+    height: 45%;}
 .knopka { 
     display: flex;
-    background-color:green;
+    background-color: var(--color2);
     border-radius: 10px;
     position: relative;
     height: 30px;
