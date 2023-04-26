@@ -11,7 +11,8 @@ body {margin: 0;}
   height: 100vh}
   .str2 img{
       height: 100px; 
-      margin-left: 20px;}
+      margin-left: 20px;
+      padding: 25px;}
   .str2 ul {
       margin: 0;
       padding:0;
