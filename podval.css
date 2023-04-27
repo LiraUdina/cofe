@@ -1,0 +1,10 @@
+:root {--color4:brown; }
+footer {
+    background-color: blanchedalmond;
+    padding: 1px;
+    height: 15px;
+    margin-bottom: 10px;}
+footer div {
+    background-color: antiquewhite;
+    color: var(--color4);}
+@media (min-width:768px) {.podval{display: flex}}

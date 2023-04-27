@@ -1,0 +1,23 @@
+
+:root {--color5: antiquewhite;;}
+a {   
+    color: var(--color5) }
+.menu {  
+    height: 60px;
+    background-color: green;
+    position: sticky;
+    top: 94%;
+    text-align: center;
+    bottom: 20px;}
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    margin-left: 40%;}
+.menu ul li {
+    padding-right: 30px;
+    padding-left: 30px;}
+@media (min-width:768px) 
+{.menu{display: flex}}
+
+ 
