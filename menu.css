@@ -13,7 +13,8 @@ a {
     list-style-type: none;
     display: flex;
     text-align: center;
-    margin-left: 40%;}
+    justify-content: center;
+    margin: 0 auto;}
 .menu ul li {
     padding-right: 30px;
     padding-left: 30px;}
