@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="str2.css">
         <link href="menu.css" rel="stylesheet">
         <link href="podval.css" rel="stylesheet">
+        <link href="madal.css" rel="stylesheet">
     </head> 
     <div class="menu"><ul>
         <li><a href="#str1.css">Главная</a></li>
@@ -15,15 +16,23 @@
     <div class="block str1" id="str1.css">
     <h1 class="text">Доставим ароматный кофе за 15 минут</h1>
     <img src="cofe.jpg">
-    <a href="#str2.css"><button class="knopka">Заказать-></button> </a>
+    <a href="#str2.css"><button class="knopka">Меню</button> </a>
     </div>
        <div class="block str2" id="str2.css"> 
-        <ul> <li><img src="кап.jpg" >
-        <p>Капучино</p></li>
-       <li><img src="аме.jpg" >
-        <p>Американо<p></li>
+       <ul><li><img src="кап.jpg">
+       <p>Капучино</p></li>
+       <li><img src="аме.jpg">
+       <p>Американо<p></li>
        <li><img src="лат.jpg">
        <p>Латте</p></li></ul>
+       <a href="#modal"><button class="knopka">Заказать</button> </a>
+    </div>
+    <div id="modal" class="modali">
+      <div class="cont">
+        <label for="phone">Введите Ваш номер</label>
+        <p><input type="tel" id="phone" name="номер"></p>
+        <a href="#str1.css"><button class="knopka">Отправить</button> </a>
+      </div>
     </div>
     <footer>
       <div><p>Лондон, Бейкер стрит</p>
